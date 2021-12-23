@@ -1,0 +1,93 @@
+body{
+    background-color:blue;
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    max-width: 1024px;
+    margin-left: auto;
+margin-right: auto;
+     background-color: #7399b8 ;
+    font-family:cursive ;
+    text-align: justify ;
+    padding: 10px;
+    margin: auto;
+
+}
+
+ @keyframes animacion { 
+
+    to { background-color:red; }
+     }
+   
+    h1{
+        animation-name: probando;
+        font-size: 20px;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;}
+        
+    
+        
+h1 {background-color:pink;
+    padding: 10px;
+     border-radius: 20px;
+     
+    }
+    
+    ul{ color: hotpink;
+    }   
+    
+    p{
+       margin: 20px;
+        font-size: x-large;
+        border: yellow 2px solid;
+        color: blue;
+       border-radius: 20px;
+    padding: 20px;
+    
+    }
+    
+    .blockquote{
+    padding: 3px 10px;
+    border: powderblue 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20;
+    
+    
+    }
+    
+   
+    .portada1{
+    border-radius: 20px;
+    margin: 15px;
+    }
+
+    @media screen  and (max-width: 800px) {
+    .abdomen {
+        width: 100px;
+        margin: 0px;
+        float:none;
+    
+    }
+    p { font-size: small;
+        float:none;
+    }
+        
+        
+    }
+
+    
+   
+
+      .barra-superior{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .barra-superior img{
+        width: 200px;
+        height:  200px;
+    }
+
